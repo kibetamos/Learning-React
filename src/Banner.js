@@ -1,9 +1,12 @@
-import {useState} from 'react';
+import {useState, useEffect} from 'react';
 function Banner() {
     
     // let name  = "Bruce Banner"
     let [name, setName] = useState("Bruce ");
 
+    useEffect(()=>{
+        console.log("Banner component loaded")
+    }, [])
     function changeName(){
         // name="Hulk"
         // console.log(name);
