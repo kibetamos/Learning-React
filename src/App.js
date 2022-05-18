@@ -52,7 +52,7 @@ function App() {
     
 
     </div> */}
-     <h1 className="title">Weather</h1>
+     <h1 className="title">React Weather API</h1>
     <Weather/>
            
         </div>
